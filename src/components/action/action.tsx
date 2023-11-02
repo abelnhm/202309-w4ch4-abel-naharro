@@ -1,9 +1,18 @@
 import { useContext } from 'react';
 import { AppContext } from '../../context/app.context';
 export function Action() {
-  const { isActiveCall } = useContext(AppContext);
+  const { isActiveCall, setCall, setActiveCall, setPhoneNumber } =
+    useContext(AppContext);
 
-  const handleClickToCall = () => {};
+  const handleClickToCall = () => {
+    setCall(true);
+
+    setTimeout(() => {
+      setCall(false);
+      setActiveCall(false);
+      setPhoneNumber('');
+    }, 5000);
+  };
 
   const handleClickToHang = () => {};
 

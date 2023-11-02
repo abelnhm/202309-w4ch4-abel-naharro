@@ -7,7 +7,6 @@ export function Key() {
   const handleClick = (increment: string) => {
     if (phoneNumber.length !== 9) {
       if (phoneNumber.length === 8) {
-        console.log('length:', phoneNumber.length);
         setActiveCall(true);
       }
       setPhoneNumber(phoneNumber + increment);
