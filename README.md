@@ -27,4 +27,3 @@ Entrega también un listado de responsabilidades en el README
 - ¿Qué renderiza?
 - ¿Qúe interacciones del usuario tiene?
 - ¿Qué información recibe y desde donde?
-  Copied

@@ -1,9 +1,15 @@
-import './app.scss';
+import { Actions } from '../actions/actions';
+import { Info } from '../info/info';
+import { Keyboard } from '../keyboard/keyboard';
 
 function App() {
   return (
     <>
-      <h1>Initial</h1>
+      <Info></Info>
+      <main className="phone">
+        <Keyboard></Keyboard>
+        <Actions></Actions>
+      </main>
     </>
   );
 }
