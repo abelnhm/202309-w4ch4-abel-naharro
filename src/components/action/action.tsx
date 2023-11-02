@@ -14,8 +14,6 @@ export function Action() {
     }, 5000);
   };
 
-  const handleClickToHang = () => {};
-
   return (
     <>
       {/* {isActiveCall ? (
