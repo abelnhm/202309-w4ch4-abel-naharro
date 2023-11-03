@@ -45,9 +45,9 @@ Entrega también un listado de responsabilidades en el README
 
 - ¿Qué información recibe y desde donde?
 
-- Info: recibe la variable isCall del useContext AppContext
-- Display: recibe la variable phoneNumber del useContext AppContext
+- Info: recibe la propiedad isCall del useContext AppContext
+- Display: recibe la propiedad phoneNumber del useContext AppContext
 - Actions:
-  - Action:
+  - Action: recibe la propiedad isActiveCall y las funciones setCall, setActiveCall, setPhoneNumber del useContext AppContext
 - Keyboard:
-  - Key:
+  - Key: recibe la propiedad phoneNumber y las funciones setPhoneNumber, setActiveCall del useContext AppContext
