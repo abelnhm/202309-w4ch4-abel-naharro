@@ -25,5 +25,29 @@ Separa todo en los siguientes componentes:
 Entrega también un listado de responsabilidades en el README
 
 - ¿Qué renderiza?
+- Info: elemento span con mensaje de llamada
+- Display: elemento span con número al que se llama
+- Actions: elemento div que contiene componente display y action
+  - Action: elementos a con botones para llamar o colgar llamada
+- Keyboard: elemento div que contiene un ol y contiene el componente key
+
+  - Key: elementos li con bottones para marcar números de llamada o borrar el número
+
 - ¿Qúe interacciones del usuario tiene?
+
+- Info: muestra información de llamada
+- Display: muestrael número al que se llama
+- Actions
+  - Action: permite pulsar el boton de llamada o colgar
+- Keyboard
+
+  - Key: permite marcar números para llamar o borrar el número
+
 - ¿Qué información recibe y desde donde?
+
+- Info: recibe la variable isCall del useContext AppContext
+- Display: recibe la variable phoneNumber del useContext AppContext
+- Actions:
+  - Action:
+- Keyboard:
+  - Key:
